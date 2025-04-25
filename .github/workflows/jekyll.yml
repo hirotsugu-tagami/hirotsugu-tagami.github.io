@@ -29,22 +29,22 @@ concurrency:
 jobs:
   name: Deploy Jekyll site to Pages
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  on:
+    push:
+      branches:
+        - main
+    workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
+  permissions:
+    contents: read
+    pages: write
+    id-token: write
+  
+  concurrency:
+    group: "pages"
+    cancel-in-progress: false
+  
+  jobs:
   # add jupyter
   build:
     runs-on: ubuntu-latest
