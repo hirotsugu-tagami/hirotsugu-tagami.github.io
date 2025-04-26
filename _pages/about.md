@@ -24,6 +24,6 @@ latest_posts:
 ---
 
 I am a PhD student at the University of Tokyo researching into magnetism using organic materials.
-I received the B.Eng. and M.Sc. degree from Tokyo Institute of Technology, Japan, in 2023 and 2025 respectivity.
+I received the B.Eng. and M.Sc. degree from Tokyo Institute of Technology and Institute of Science Tokyo, Japan, in 2023 and 2025 respectivity.
 
-I researched about implement robot actions for automatic scientific experiments as a research intern at OMRON SINIC X Corporation from 2022 to 2023.
+I researched about implement robot actions for automatic scientific experiments as a research intern at [OMRON SINIC X Corporation](https://www.omron.com/sinicx/en/) from 2022 to 2023.
