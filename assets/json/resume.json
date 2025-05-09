@@ -44,9 +44,20 @@
   ],
   "education": [
     {
-      "institution": "Institute of Science Tokyo, Tokyo, Japan",
+      "institution": "The University of Tokyo, Tokyo, Japan",
       "location": "Tokyo, Japan",
       "url": "https://www.u-tokyo.ac.jp/en/index.html",
+      "area": "",
+      "studyType": "",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "score": "",
+      "courses": ["Spintronics"]
+    },
+    {
+      "institution": "Institute of Science Tokyo, Tokyo, Japan",
+      "location": "Tokyo, Japan",
+      "url": "https://www.isct.ac.jp/en",
       "area": "Metal Cpmplexes and Thermal propertis of polymer films",
       "studyType": "MS in Appled Chemistry",
       "startDate": "2023-04-01",
@@ -57,7 +68,7 @@
     {
       "institution": "Tokyo Institute of Technology, Tokyo, Japan",
       "location": "Tokyo, Japan",
-      "url": "https://www.u-tokyo.ac.jp/en/index.html",
+      "url": "https://www.titech.ac.jp/english",
       "area": "Epitaxil growth of 2D materials and Robotics",
       "studyType": "BEng in Appled Chemistry",
       "startDate": "2019-04-01",
