@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Hirotsugu Tagami",
+    "label": "PhD student",
+    "image": "",
+    "email": "hirotsugu@g.ecc.u-tokyo.ac.jp",
+    "phone": "+81 3-5454-6742",
+    "url": "https://hirotsugu-tagami.github.io/",
+    "summary": "Antiferromagnetic spintronics",
+    "location": {
+      "address": "3-8-1 Komaba",
+      "postalCode": "153-8902",
+      "city": "Meguro",
+      "countryCode": "JP",
+      "region": "Tokyo"
+    },
+    "profiles": [
+      {
+        "network": "X",
+        "username": "田上大嗣",
+        "url": "https://X.com/tag_phys"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Yuki Shiomi Laboratory, the University of Tokyo",
+      "position": "Research Assistant",
+      "url": "https://yukishiomi.com",
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "summary": "プロジェクト名：相変化材料を用いたスピントロ二クス機能開拓",
+      "highlights": ["Spintronics"]
+    },
+    {
+      "name": "OMRON SINIC X Corp.",
+      "position": "Research Intern",
+      "url": "https://www.omron.com/sinicx/en/",
+      "startDate": "2023-10-01",
+      "endDate": "2024-01-31",
+      "summary": "プロジェクト名：科学実験自動化のためのロボット実装",
+      "highlights": ["Robotics", "ROS", "ROS2", "Ubuntu", "Python", "Autonomous Experiments"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Tokyo, Tokyo, Japan",
+      "location": "Tokyo, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/index.html",
+      "area": "",
+      "studyType": "PhD.",
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "score": "",
+      "courses": ["Department of Basic Science"]
+    },
+    {
+      "institution": "Institute of Science Tokyo, Tokyo, Japan",
+      "location": "Tokyo, Japan",
+      "url": "https://www.isct.ac.jp/en",
+      "area": "Metal Cpmplexes and Thermal propertis of polymer films",
+      "studyType": "MS in Appled Chemistry",
+      "startDate": "2023-04-01",
+      "endDate": "2025-03-31",
+      "score": "2.9/4.5",
+      "courses": ["Department of Chemical Science and Engineering"]
+    },
+    {
+      "institution": "Tokyo Institute of Technology, Tokyo, Japan",
+      "location": "Tokyo, Japan",
+      "url": "https://www.titech.ac.jp/english",
+      "area": "Epitaxil growth of 2D materials and Robotics",
+      "studyType": "BEng in Appled Chemistry",
+      "startDate": "2019-04-01",
+      "endDate": "2023-03-31",
+      "score": "2.7/4.5",
+      "courses": ["Department of Chemical Science and Engineering"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "HTML/CSS, JavaScript",
+        "GoogleAppScript"
+      ]
+    },
+    {
+      "name": "Synthetic Experiments",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Suptter Epitaxial Growth",
+        "Inorganic Single Crystal Growth",
+        "Organic Single Crystal Growth"
+      ]
+    },
+    {
+      "name": "Measurement Experiments",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Powder X-ray Diffraction",
+        "Thin Film X-ray Diffraction",
+        "PPMS/MPMS",
+        "Electrical Resistivity Measurement of Organic Compounds",
+        "Thermoelectric Power Measurement of Organic Compounds"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Materials",
+        "Spintronics",
+        "Magnetic Materials",
+        "Kitaev Materials"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Organic Chemistry",
+        "Metal Complexes",
+        "Polymer"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "相変化材料を用いたスピントロ二クス機能開拓",
+      "summary": "Research Assistant (PI: Prof. Yuki SHIOMI)",
+      "highlights": ["Spintronics", "Phase Change Materials"],
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "url": ""
+    }
+  ]
+}
