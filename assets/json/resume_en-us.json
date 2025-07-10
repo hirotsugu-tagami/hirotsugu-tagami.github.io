@@ -44,7 +44,7 @@
   ],
   "education": [
     {
-      "institution": "The University of Tokyo, Tokyo, Japan",
+      "institution": "Department of Basic Science, The University of Tokyo",
       "location": "Tokyo, Japan",
       "url": "https://www.u-tokyo.ac.jp/en/index.html",
       "area": "",
@@ -52,10 +52,10 @@
       "startDate": "2025-04-01",
       "endDate": "",
       "score": "",
-      "courses": ["Department of Basic Science"]
+      "courses": ["Antiferromagnetic spintronics", "Physical properties at low temoerature", "Spin current", "Kitaev candidate", "Magnetic resonance"]
     },
     {
-      "institution": "Institute of Science Tokyo, Tokyo, Japan",
+      "institution": "Department of Chemical Science and Engineering, Institute of Science Tokyo",
       "location": "Tokyo, Japan",
       "url": "https://www.isct.ac.jp/en",
       "area": "Metal Cpmplexes and Thermal propertis of polymer films",
@@ -63,10 +63,10 @@
       "startDate": "2023-04-01",
       "endDate": "2025-03-31",
       "score": "2.9/4.5",
-      "courses": ["Department of Chemical Science and Engineering"]
+      "courses": ["Synthesis of metal complexes", "Thermal properties of polymer thin films"]
     },
     {
-      "institution": "Tokyo Institute of Technology, Tokyo, Japan",
+      "institution": "Department of Chemical Science and Engineering, Tokyo Institute of Technology",
       "location": "Tokyo, Japan",
       "url": "https://www.titech.ac.jp/english",
       "area": "Epitaxil growth of 2D materials and Robotics",
@@ -74,7 +74,7 @@
       "startDate": "2019-04-01",
       "endDate": "2023-03-31",
       "score": "2.7/4.5",
-      "courses": ["Department of Chemical Science and Engineering"]
+      "courses": ["Growth thin film", "Physical properties at low temoerature", "Automatic experiments", "Robotics"]
     }
   ],
   "skills": [
@@ -139,7 +139,7 @@
       "highlights": ["Spintronics", "Phase Change Materials"],
       "startDate": "2025-04-01",
       "endDate": "",
-      "url": ""
+      "url": "https://projectdb.jst.go.jp/grant/JST-PROJECT-20351631/"
     }
   ]
 }

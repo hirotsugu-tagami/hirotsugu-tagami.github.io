@@ -26,7 +26,7 @@
     {
       "name": "東京大学大学院総合文化研究科",
       "position": "リサーチ・アシスタント",
-      "url": "https://example.com",
+      "url": "https://yukishiomi.com",
       "startDate": "2025-04-01",
       "endDate": "",
       "summary": "相変化材料を用いたスピントロニクス機能開拓",
@@ -35,7 +35,7 @@
     {
       "name": "OMRON SINIC X 株式会社",
       "position": "リサーチ・インターンシップ",
-      "url": "https://example.com",
+      "url": "https://www.omron.com/sinicx/",
       "startDate": "2022-10-01",
       "endDate": "2023-01-31",
       "summary": "科学実験自動化のためのロボット実装",
@@ -52,7 +52,7 @@
       "startDate": "2025-04-01",
       "endDate": "",
       "score": "",
-      "courses": ["反強磁性スピントロニクス実験"]
+      "courses": ["反強磁性スピントロニクス", "低温物性", "スピン流", "キタエフ材料", "磁気共鳴"]
     },
     {
       "institution": "東京科学大学 物質理工学院 応用化学系 応用化学コース",
@@ -139,7 +139,7 @@
       "highlights": ["スピントロニクス", "相変化材料"],
       "startDate": "2025-04-01",
       "endDate": "",
-      "url": ""
+      "url": "https://projectdb.jst.go.jp/grant/JST-PROJECT-20351631/"
     }
   ]
 }
