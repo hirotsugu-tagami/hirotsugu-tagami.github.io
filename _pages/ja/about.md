@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 概要
 permalink: /
-subtitle: 博士後期課程 / リサーチ・アシスタント | 東京大学
+subtitle: 博士後期課程 / リサーチ・アシスタント | <a href="https://www.u-tokyo.ac.jp/ja/index.html">東京大学</a>
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items

@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: PhD student / Research Assistant | the University of Tokyo
+subtitle: PhD student / Research Assistant | <a href="https://www.u-tokyo.ac.jp/en/index.html">the University of Tokyo</a>
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
