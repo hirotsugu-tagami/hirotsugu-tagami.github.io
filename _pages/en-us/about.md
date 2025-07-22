@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at the University of Tokyo researching into spin transport using various materials.
+I am a PhD student at the University of Tokyo researching into spin transport using various materials.  
 I received the B.Eng. and M.Sc. degree from Tokyo Institute of Technology and Institute of Science Tokyo, Japan, in 2023 and 2025 respectivity.
 
 I researched about implement robot actions for automatic scientific experiments as a research intern at [OMRON SINIC X Corporation](https://www.omron.com/sinicx/en/) from 2022 to 2023.
