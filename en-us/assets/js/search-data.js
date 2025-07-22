@@ -34,6 +34,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/en-us/cv/";
           },
+        },{id: "nav-access",
+          title: "Access",
+          description: "",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/en-us/access/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -472,7 +479,7 @@ ninja.data = [{
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/tag_phys", "_blank");
+          window.open("https://twitter.com/hiroqp", "_blank");
         },
       },{
           id: 'lang-ja',
