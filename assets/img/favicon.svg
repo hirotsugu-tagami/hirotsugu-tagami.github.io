@@ -1,0 +1,60 @@
+    <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;display=swap');
+            </style>
+        </defs>
+        <style>
+            /* 回転アニメーションの定義 */
+            @keyframes rotate {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+            .spinner {
+                /* アニメーションを適用し、4秒で1回転させます */
+                animation: rotate 4s linear infinite;
+                /* SVGキャンバスの中心を回転軸にします */
+                transform-origin: 32px 32px;
+            }
+        </style>
+        
+        <!-- 背景（透明度を少し持たせる） -->
+        <circle cx="32" cy="32" r="30" fill="rgba(31, 41, 55, 0.5)" />
+
+        <!-- ハミルトニアン 'H' を表現するテキスト */ -->
+        <text x="50%" y="53%" dominant-baseline="central" text-anchor="middle"
+            font-family="'Dancing Script', cursive" font-size="42" font-weight="700" fill="#e5e7eb">
+            H
+        </text>
+
+        <!-- 回転するスピン粒子グループ -->
+        <g class="spinner">
+            <!-- スピンアップ粒子 (青) - 新デザイン -->
+            <g transform="translate(32 10)">
+                <!-- 矢印の軸（奥側） -->
+                <path d="M 0 2 L 0 8" stroke-width="1.5" stroke="#a0aec0"/>
+                <!-- 球体 -->
+                <circle cx="0" cy="0" r="5" fill="#38bdf8"/>
+                <!-- ハイライト -->
+                <circle cx="-1.5" cy="-1.5" r="1.5" fill="#a7e3ff" opacity="0.9"/>
+                <!-- 矢印の軸（手前側） -->
+                <path d="M 0 -8 L 0 -2" stroke-width="1.5" stroke="#E5E7EB"/>
+                <!-- 矢印の先端 -->
+                <path d="M 0 -10 L 3.5 -5 L -3.5 -5 Z" fill="#E5E7EB"/>
+            </g>
+            
+            <!-- スピンダウン粒子 (ピンク) - 新デザイン -->
+            <g transform="translate(32 54)">
+                <!-- 矢印の軸（奥側） -->
+                <path d="M 0 -2 L 0 -8" stroke-width="1.5" stroke="#a0aec0"/>
+                <!-- 球体 -->
+                <circle cx="0" cy="0" r="5" fill="#f472b6"/>
+                <!-- ハイライト -->
+                <circle cx="-1.5" cy="-1.5" r="1.5" fill="#fbcfe8" opacity="0.9"/>
+                <!-- 矢印の軸（手前側） -->
+                <path d="M 0 8 L 0 2" stroke-width="1.5" stroke="#E5E7EB"/>
+                <!-- 矢印の先端 -->
+                <path d="M 0 10 L 3.5 5 L -3.5 5 Z" fill="#E5E7EB"/>
+            </g>
+        </g>
+    </svg>
