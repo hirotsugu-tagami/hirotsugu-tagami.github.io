@@ -4,7 +4,7 @@ layout: page
 permalink: /repositories/
 title: リソース
 description: 
-nav: true
+nav: false
 nav_order: 4
 ---
 
