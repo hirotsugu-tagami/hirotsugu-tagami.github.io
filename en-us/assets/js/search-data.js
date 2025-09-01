@@ -20,21 +20,35 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/en-us/";
     },
-  },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/en-us/repositories/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/en-us/cv/";
           },
-        },{id: "nav-access",
+        },{id: "dropdown-original-paper",
+              title: "Original paper",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/en-us/papers/";
+              },
+            },{id: "dropdown-talk",
+              title: "Talk",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/en-us/talk/";
+              },
+            },{id: "dropdown-grants-award-thesis",
+              title: "Grants / Award / Thesis",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/en-us/others/";
+              },
+            },{id: "nav-access",
           title: "Access",
           description: "",
           section: "Navigation menu",

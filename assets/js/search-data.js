@@ -20,21 +20,35 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-リソース",
-          title: "リソース",
-          description: "",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-アクセス",
+        },{id: "dropdown-原著論文",
+              title: "原著論文",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/papers/";
+              },
+            },{id: "dropdown-口頭発表",
+              title: "口頭発表",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talk/";
+              },
+            },{id: "dropdown-研究助成-受賞-学位論文",
+              title: "研究助成・受賞・学位論文",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/others/";
+              },
+            },{id: "nav-アクセス",
           title: "アクセス",
           description: "",
           section: "Navigation menu",
