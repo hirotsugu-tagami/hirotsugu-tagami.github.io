@@ -48,6 +48,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/others/";
               },
+            },{id: "dropdown-リポジトリ",
+              title: "リポジトリ",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/repositories/";
+              },
             },{id: "nav-アクセス",
           title: "アクセス",
           description: "",
