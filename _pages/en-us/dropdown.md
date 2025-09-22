@@ -12,4 +12,6 @@ children:
     permalink: /talk/
   - title: Grants / Award / Thesis
     permalink: /others/
+  - title: Repositories
+    permalink: /repositories/
 ---

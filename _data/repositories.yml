@@ -1,7 +1,9 @@
 github_users:
   - hirotsugu-tagami
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - hirotsugu-tagami/iOSTitechPortalMatrixLogin
+  - hirotsugu-tagami/iOS-Titech-Portal-Matrix-Login
+  - hirotsugu-tagami/Laue-Backscattering-Simulator
+  - hirotsugu-tagami/Psi-Calculator

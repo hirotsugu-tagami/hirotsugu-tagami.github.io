@@ -12,4 +12,6 @@ children:
     permalink: /talk/
   - title: 研究助成・受賞・学位論文
     permalink: /others/
+  - title: リポジトリ
+    permalink: /repositories/
 ---

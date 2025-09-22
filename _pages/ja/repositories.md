@@ -2,10 +2,8 @@
 page_id: repositories
 layout: page
 permalink: /repositories/
-title: リソース
+title: リポジトリ
 description: 
-nav: false
-nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
