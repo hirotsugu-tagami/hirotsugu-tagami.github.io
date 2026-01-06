@@ -1,0 +1,28 @@
+---
+layout: none
+---
+{% if page.cv_pdf contains '://' %}
+  {% assign pdf_url = page.cv_pdf %}
+{% else %}
+  {% assign pdf_url = page.cv_pdf | prepend: '/' | prepend: site.active_lang | prepend: '/assets/pdf/' | prepend: site.baseurl %}
+{% endif %}
+
+<!doctype html>
+<html lang="{{ site.active_lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url={{ pdf_url }}" />
+    <link rel="canonical" href="{{ pdf_url }}" />
+    <meta name="robots" content="noindex" />
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <p>
+      <a href="{{ pdf_url }}">Open PDF</a>
+    </p>
+    <script>
+      window.location.replace({{ pdf_url | jsonify }});
+    </script>
+  </body>
+</html>

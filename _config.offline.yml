@@ -1,0 +1,6 @@
+# Local/offline build overrides.
+# Usage:
+#   bundle exec jekyll build --config _config.yml,_config.offline.yml
+#
+# Prevent network calls during generation (e.g., external RSS fetch).
+external_sources: []
