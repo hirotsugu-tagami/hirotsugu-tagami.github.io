@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-東京大学 大学院総合文化研究科 相関基礎科学系博士後期課程に進学しました．
+arXivにプレプリントを公開しました。
+"Electrical detection of spin-flip transition in metal/Na5Co15.5Te6O36 heterostructure"
+https://arxiv.org/abs/2605.00491
