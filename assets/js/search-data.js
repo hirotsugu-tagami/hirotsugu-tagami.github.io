@@ -446,10 +446,12 @@ ninja.data = [{
             },},{id: "news-東京大学-大学院総合文化研究科-相関基礎科学系博士後期課程に進学しました",
           title: '東京大学 大学院総合文化研究科 相関基礎科学系博士後期課程に進学しました．',
           description: "",
-          section: "News",},{id: "news-h-tagami-t-kawada-and-y-shiomi-https-arxiv-org-abs-2605-00491-electrical-detection-of-spin-flip-transition-in-metal-na5co15-5te6o36-heterostructure",
-          title: 'H. Tagami, T. Kawada and Y. Shiomi, https://arxiv.org/abs/2605.00491 “Electrical detection of spin-flip transition...',
+          section: "News",},{id: "news-arxivにプレプリントを公開しました",
+          title: 'arXivにプレプリントを公開しました。',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/ja/announcement_5/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
