@@ -444,7 +444,7 @@ ninja.data = [{
           section: "News",},{id: "news-entered-the-doctoral-course-of-the-graduate-school-of-arts-and-sciences-the-university-of-tokyo",
           title: 'Entered the doctoral course of the Graduate School of Arts and Sciences, The...',
           description: "",
-          section: "News",},{id: "news-i-have-published-a-preprint-on-arxiv-electrical-detection-of-spin-flip-transition-in-metal-na5co15-5te6o36-heterostructure-https-arxiv-org-abs-2605-00491",
+          section: "News",},{id: "news-i-have-published-a-preprint-on-arxiv-electrical-detection-of-spin-flip-transition-in-metal-na5co15-5te6o36-heterostructure",
           title: 'I have published a preprint on arXiv. “Electrical detection of spin-flip transition in...',
           description: "",
           section: "News",},{id: "projects-project-1",
