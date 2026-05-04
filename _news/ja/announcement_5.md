@@ -2,7 +2,7 @@
 layout: post
 title: arXivにプレプリントを公開しました。
 date: 2026-05-04 
-inline: true
+inline: false
 related_posts: false
 ---
 

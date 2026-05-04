@@ -2,7 +2,7 @@
 layout: post
 title: I have published a preprint on arXiv.
 date: 2026-05-04 
-inline: true
+inline: false
 related_posts: false
 ---
 
