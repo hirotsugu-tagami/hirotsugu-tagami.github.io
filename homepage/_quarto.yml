@@ -4,8 +4,8 @@ project:
 lang: ja
 
 website:
-  title: "Hirotsugu Tagami"
-  description: "Hirotsugu Tagami — Researcher in condensed matter physics and spintronics."
+  title: "田上大嗣"
+  description: "田上大嗣 — 物性物理学を研究する東大博士課程学生"
   site-url: "https://hirotsugu-tagami.github.io/homepage/"
   navbar:
     pinned: true
