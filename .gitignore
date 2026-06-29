@@ -1,0 +1,4 @@
+/homepage/_site/
+/homepage/.quarto/
+/homepage/**/*.quarto_ipynb
+.DS_Store
