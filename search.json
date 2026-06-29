@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "田上 大嗣",
@@ -47,5 +40,12 @@
     "title": "田上 大嗣",
     "section": "連絡先",
     "text": "連絡先\n〒153-8902 東京都目黒区駒場4-6-1\n東京大学駒場Iキャンパス16号館622号室"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

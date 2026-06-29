@@ -68,9 +68,9 @@ main.content {
 
 .quarto-title h1.title {
   color: var(--text);
-  font-size: clamp(2.8rem, 7vw, 5.2rem);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
   font-weight: 650;
-  letter-spacing: -0.055em;
+  letter-spacing: -0.035em;
   line-height: 1;
 }
 
