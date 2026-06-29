@@ -1,0 +1,28 @@
+<script>
+(() => {
+  const target = "Hirotsugu Tagami";
+
+  const underlineAuthor = () => {
+    document.querySelectorAll("#refs .csl-entry .csl-block:first-child").forEach((line) => {
+      const text = line.textContent;
+      const index = text.indexOf(target);
+
+      if (index === -1 || line.querySelector(".highlight-author")) return;
+
+      const before = document.createTextNode(text.slice(0, index));
+      const author = document.createElement("span");
+      const after = document.createTextNode(text.slice(index + target.length));
+
+      author.className = "highlight-author";
+      author.textContent = target;
+      line.replaceChildren(before, author, after);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", underlineAuthor);
+  } else {
+    underlineAuthor();
+  }
+})();
+</script>

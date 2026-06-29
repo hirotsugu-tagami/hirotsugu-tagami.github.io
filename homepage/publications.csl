@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0.2" class="in-text" default-locale="en-US">
+  <info>
+    <title>Hirotsugu Tagami Publications</title>
+    <id>https://hirotsugu-tagami.github.io/publications</id>
+    <link href="https://hirotsugu-tagami.github.io/publications" rel="self"/>
+    <updated>2026-06-29T00:00:00+00:00</updated>
+    <category citation-format="numeric"/>
+  </info>
+
+  <macro name="author">
+    <names variable="author">
+      <name initialize="false" name-as-sort-order="none" delimiter=", "/>
+    </names>
+  </macro>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", ">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography entry-spacing="1" line-spacing="1">
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key macro="author"/>
+    </sort>
+    <layout>
+      <text macro="author" display="block"/>
+      <text variable="title" display="block" font-style="italic" font-weight="bold"/>
+      <choose>
+        <if variable="container-title volume issue page" match="any">
+          <group display="block">
+            <text variable="container-title"/>
+            <text variable="volume" prefix=" "/>
+            <text variable="issue" prefix="(" suffix=")"/>
+            <text variable="page" prefix=", "/>
+            <date variable="issued" prefix=" (" suffix=")">
+              <date-part name="year"/>
+            </date>
+          </group>
+        </if>
+      </choose>
+      <group display="block" delimiter=" | ">
+        <text variable="DOI" prefix="https://doi.org/"/>
+        <text variable="URL"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

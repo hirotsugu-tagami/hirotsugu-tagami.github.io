@@ -1,0 +1,102 @@
+---
+title: "田上 大嗣"
+subtitle: "博士後期課程2年 / リサーチ・アシスタント@東京大学 | 非常勤研究員@Quemix Inc."
+page-layout: article
+toc: false
+bibliography: references.bib
+csl: publications.csl
+link-citations: true
+nocite: "@*"
+---
+
+::: {#profile .profile}
+
+所属
+: [東京大学大学院 総合文化研究科](https://www.c.u-tokyo.ac.jp/) [広域科学専攻 相関基礎科学系](https://dbs.c.u-tokyo.ac.jp/)  
+  [塩見雄毅研究室](https://yukishiomi.com/)
+
+E-mail
+: hirotsugu(at)g.ecc.u-tokyo.ac.jp
+
+その他
+: [Google Scholar](https://scholar.google.com/citations?user=hirotsugu-tagami) · [GitHub](https://github.com/hirotsugu-tagami) 
+
+:::
+
+## 研究分野 {#research}
+
+材料合成と低温物性測定を組み合わせ、磁性体におけるスピン輸送現象を研究しています。特に、反強磁性体や相変化材料における磁気構造の変化と電気伝導の関係、スピントロニクス機能の開拓に関心があります。
+
+::: {.keywords}
+- Organic/Inorganic Single Crystal Growth
+- Magnetism
+- Magnetoresitance
+- Antiferromagnetic spintronics
+- Spin transport
+- Low-temperature physics
+- Phase-change materials
+- Kitaev materials
+:::
+
+## 発表 {#publications}
+
+### 論文
+::: {#refs}
+:::
+
+### 口頭発表
+::: {.presentation-list}
+1. [Hirotsugu Tagami]{.highlight-author}, Takuya Kawada, Yuki Shiomi  
+   ***Electrical detection of spin-flip transition in metal/Ising-type antiferromagnet Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> heterostructure***  
+   応用物理学会, 北海道大学札幌キャンパス, 2026年9月8日- 2026年9月11日（発表予定）
+2. [田上 大嗣]{.highlight-author}, 川田 拓弥, 塩見 雄毅  
+   ***金属/Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> 二層膜におけるスピンフリップ遷移の電気的検出***  
+   日本物理学会, 東京大学駒場キャンパス, 2026年9月14日- 2026年9月17日（発表予定）
+:::
+
+## 学歴 & 所属歴 {#education}
+
+### 所属歴
+
+2025.04 — Present
+: **東京大学 リサーチ・アシスタント**  
+  東京大学大学院 総合文化研究科 相関基礎科学系 塩見雄毅研究室
+
+### 学歴
+
+2025.04 — Present
+: **東京大学大学院 総合文化研究科**  
+  博士後期課程
+
+2023.04 — 2025.03
+: **東京工業大学 物質理工学院**  
+  応用化学系、修士（理学）
+
+2019.04 — 2023.03
+: **東京工業大学 物質理工学院**  
+  応用化学系、学士（工学）
+
+## 経歴 {#experience}
+
+### [Quemix Inc.](https://www.quemix.com/)
+
+**2026.4 — 2026.05 · リサーチ・インターンシップ**  
+**2026.5 — present · 非常勤研究員**  
+非常勤研究員として、理論研究に従事しています。  
+
+### [OMRON SINIC X Corp.](https://www.omron.com/sinicx/)
+
+**2022.10 — 2023.01 · リサーチ・インターンシップ**  
+科学実験自動化のためのロボット実装に関わる研究をしました。  
+
+### [第69回 物性若手夏の学校](https://cmpss.jp/)
+
+**2024.08 · 準備局（運営）**  
+準備局集中ゼミC世話人として、集中ゼミの企画・運営を担当しました。  
+
+## 連絡先 {#contact}
+
+〒153-8902 
+東京都目黒区駒場4-6-1  
+東京大学駒場Iキャンパス16号館622号室  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359.079333711541!2d139.6834087527553!3d35.66125925434696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3502e914393%3A0x515aef2e404b24ff!2z5pel5pys44CB44CSMTUzLTAwNDEg5p2x5Lqs6YO955uu6buS5Yy66aeS5aC077yT5LiB55uu77yYIDE25Y-36aSo!5e0!3m2!1sja!2sfr!4v1771234831742!5m2!1sja!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

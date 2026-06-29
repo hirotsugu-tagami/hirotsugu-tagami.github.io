@@ -1,0 +1,40 @@
+project:
+  type: website
+
+lang: ja
+
+website:
+  title: "Hirotsugu Tagami"
+  description: "Hirotsugu Tagami — Researcher in condensed matter physics and spintronics."
+  site-url: "https://hirotsugu-tagami.github.io"
+  navbar:
+    pinned: true
+    collapse-below: lg
+    right:
+      - href: index.qmd#profile
+        text: プロフィール
+      - href: index.qmd#research
+        text: 研究分野
+      - href: index.qmd#publications
+        text: 発表
+      - href: index.qmd#education
+        text: 学歴 & 所属歴
+      - href: index.qmd#experience
+        text: 経歴
+      - href: index.qmd#contact
+        text: 連絡先
+      
+  page-footer:
+    left: "© 2026 Hirotsugu Tagami"
+    # right: "Built with [Quarto](https://quarto.org/)"
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    include-after-body: author-highlight.html
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
