@@ -50,13 +50,16 @@ E-mail
    ***Electrical detection of spin-flip transition in metal/Ising-type antiferromagnet Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> heterostructure***  
    応用物理学会, 北海道大学札幌キャンパス, 2026年9月8日- 2026年9月11日（発表予定）
 2. [田上 大嗣]{.highlight-author}, 川田 拓弥, 塩見 雄毅  
-   ***金属/Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> 二層膜におけるスピンフリップ遷移の電気的検出***  
+   ***金属/Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> 二層膜におけるスピンフリップ転移の電気的検出***  
    日本物理学会, 東京大学駒場キャンパス, 2026年9月14日- 2026年9月17日（発表予定）
 :::
 
 ## 学歴 & 所属歴 {#education}
 
 ### 所属歴
+2026.05 — Present
+: **Quemix Inc. 非常勤研究員**  
+  インターンシップの延長として、非常勤研究員として勤務しています。
 
 2025.04 — Present
 : **東京大学 リサーチ・アシスタント**  
@@ -81,8 +84,7 @@ E-mail
 ### [Quemix Inc.](https://www.quemix.com/)
 
 **2026.4 — 2026.05 · リサーチ・インターンシップ**  
-**2026.5 — present · 非常勤研究員**  
-非常勤研究員として、理論研究に従事しています。  
+理論研究に従事しています。  
 
 ### [OMRON SINIC X Corp.](https://www.omron.com/sinicx/)
 
