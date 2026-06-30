@@ -12,14 +12,17 @@ nocite: "@*"
 ::: {#profile .profile}
 
 所属
-: [東京大学大学院 総合文化研究科](https://www.c.u-tokyo.ac.jp/) [広域科学専攻 相関基礎科学系](https://dbs.c.u-tokyo.ac.jp/)  
+: [東京大学 大学院総合文化研究科](https://www.c.u-tokyo.ac.jp/) [広域科学専攻 相関基礎科学系](https://dbs.c.u-tokyo.ac.jp/)  
   [塩見雄毅研究室](https://yukishiomi.com/)
 
 E-mail
 : hirotsugu(at)g.ecc.u-tokyo.ac.jp
 
+ORCID
+: [0009-0000-7865-3173](https://orcid.org/0009-0000-7865-3173)
+
 その他
-: [Google Scholar](https://scholar.google.com/citations?user=hirotsugu-tagami) · [GitHub](https://github.com/hirotsugu-tagami) 
+: [Google Scholar](https://scholar.google.com/citations?user=hirotsugu-tagami) · [researchmap](https://researchmap.jp/hirotsugu-tagami) · [GitHub: hirotsugu-tagami](https://github.com/hirotsugu-tagami) 
 
 :::
 
