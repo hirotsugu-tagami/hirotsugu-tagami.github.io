@@ -21,8 +21,8 @@ website:
         text: 学歴 & 所属歴
       - href: index.qmd#experience
         text: 経歴
-      - href: index.qmd#access
-        text: アクセス
+      # - href: index.qmd#access
+      #   text: アクセス
       
   page-footer:
     left: "© 2026 Hirotsugu Tagami"

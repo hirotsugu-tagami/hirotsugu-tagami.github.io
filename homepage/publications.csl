@@ -48,6 +48,9 @@
         <text variable="DOI" prefix="https://doi.org/"/>
         <text variable="URL"/>
       </group>
+      <date variable="issued" display="block">
+        <date-part name="year"/>
+      </date>
     </layout>
   </bibliography>
 </style>

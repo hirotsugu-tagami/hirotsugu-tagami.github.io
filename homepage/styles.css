@@ -151,21 +151,26 @@ h3 {
 }
 
 #refs {
-  counter-reset: publication-number;
   margin-top: 2rem;
 }
 
 #refs .csl-entry {
-  counter-increment: publication-number;
   margin-bottom: 2rem;
   padding: 0.2rem 0 0.2rem 2rem;
   position: relative;
 }
 
 #refs .csl-entry::before {
-  content: counter(publication-number) ".";
+  content: attr(data-publication-number) ".";
+}
+
+#refs .csl-entry::before,
+.presentation-list li::before {
+  font-family: inherit;
+  font-size: 1rem;
   font-weight: 650;
   left: 0;
+  line-height: 1.75;
   position: absolute;
   top: 0.2rem;
 }
@@ -178,6 +183,50 @@ h3 {
   font-weight: 500;
 }
 
+#refs .csl-entry > .csl-block:last-child {
+  display: none;
+}
+
+.year-disclosure {
+  margin: 1rem 0 1.5rem;
+}
+
+.year-disclosure > summary {
+  background: var(--surface);
+  border: 0;
+  border-radius: 0.35rem;
+  color: var(--text);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.5;
+  padding: 0.65rem 0.85rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.year-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.year-disclosure > summary::after {
+  content: "⌄";
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 160ms ease;
+}
+
+.year-disclosure[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.year-disclosure-body {
+  padding: 1.25rem 0 0.25rem;
+}
+
 .highlight-author {
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -185,14 +234,42 @@ h3 {
 }
 
 .presentation-list ol {
-  margin: 1.25rem 0 0;
-  padding-left: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .presentation-list li {
   line-height: 1.75;
   margin-bottom: 1.5rem;
-  padding-left: 0.35rem;
+  padding: 0.2rem 0 0.2rem 2rem;
+  position: relative;
+}
+
+.presentation-list li::before {
+  content: attr(data-presentation-number) ".";
+}
+
+.presentation-status {
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  margin-right: 0.35rem;
+  padding: 0.12rem 0.5rem;
+  vertical-align: 0.08em;
+}
+
+.status-oral {
+  background: #e5f0ec;
+  color: #245b4a;
+}
+
+.status-poster {
+  background: #eee9f5;
+  color: #5b4774;
 }
 
 #refs .csl-block:nth-child(2) {

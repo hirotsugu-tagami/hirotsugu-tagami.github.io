@@ -1,0 +1,39 @@
+presentations:
+  # - year: 2026
+  #   type: Poster
+  #   status: upcoming
+  #   authors:
+  #     - name: 田上 大嗣
+  #       me: true
+  #     - name: 川田 拓弥
+  #     - name: 塩見 雄毅
+  #   title: "金属/Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> 二層膜におけるスピンフリップ転移の電気的検出"
+  #   conference: キメラ準粒子研究会
+  #   location: 秋保温泉
+  #   date: 2026年8月24日–25日
+
+  - year: 2026
+    type: Oral
+    status: upcoming
+    authors:
+      - name: Hirotsugu Tagami
+        me: true
+      - name: Takuya Kawada
+      - name: Yuki Shiomi
+    title: "Electrical detection of spin-flip transition in metal/Ising-type antiferromagnet Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> heterostructure"
+    conference: 応用物理学会
+    location: 北海道大学札幌キャンパス
+    date: 2026年9月8日–11日
+
+  - year: 2026
+    type: Oral
+    status: upcoming
+    authors:
+      - name: 田上 大嗣
+        me: true
+      - name: 川田 拓弥
+      - name: 塩見 雄毅
+    title: "金属/Na<sub>5</sub>Co<sub>15.5</sub>Te<sub>6</sub>O<sub>36</sub> 二層膜におけるスピンフリップ転移の電気的検出"
+    conference: 日本物理学会
+    location: 東京大学駒場キャンパス
+    date: 2026年9月14日–17日
