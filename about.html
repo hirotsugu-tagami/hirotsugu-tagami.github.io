@@ -118,10 +118,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html#experience"> 
 <span class="menu-text">経歴</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html#access"> 
-<span class="menu-text">アクセス</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -165,6 +161,19 @@ ul.task-list li input[type="checkbox"] {
 (() => {
   const target = "Hirotsugu Tagami";
 
+  const createYearDisclosure = (label, body, open, className) => {
+    const details = document.createElement("details");
+    const summary = document.createElement("summary");
+
+    details.className = `year-disclosure ${className}`;
+    details.open = open;
+    summary.textContent = label;
+    body.classList.add("year-disclosure-body");
+    details.append(summary, body);
+
+    return details;
+  };
+
   const underlineAuthor = () => {
     document.querySelectorAll("#refs .csl-entry .csl-block:first-child").forEach((line) => {
       const text = line.textContent;
@@ -182,10 +191,79 @@ ul.task-list li input[type="checkbox"] {
     });
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", underlineAuthor);
-  } else {
+  const groupPublicationsByYear = () => {
+    const references = document.querySelector("#refs");
+    if (!references) return;
+
+    const entries = Array.from(references.children).filter((element) =>
+      element.classList.contains("csl-entry")
+    );
+    if (entries.length === 0) return;
+
+    const groups = new Map();
+
+    entries.forEach((entry, entryIndex) => {
+      const blocks = Array.from(entry.children).filter((element) =>
+        element.classList.contains("csl-block")
+      );
+      const yearBlock = blocks[blocks.length - 1];
+      const year = yearBlock ? yearBlock.textContent.trim() : "年不明";
+
+      entry.dataset.publicationNumber = String(entryIndex + 1);
+
+      if (!groups.has(year)) groups.set(year, []);
+      groups.get(year).push(entry);
+    });
+
+    references.removeAttribute("role");
+    references.replaceChildren();
+
+    Array.from(groups.entries()).forEach(([year, yearEntries]) => {
+      const list = document.createElement("div");
+
+      list.className = "publication-year-list";
+      yearEntries.forEach((entry) => list.appendChild(entry));
+      references.appendChild(
+        createYearDisclosure(
+          year === "年不明" ? year : `${year}年`,
+          list,
+          false,
+          "publication-year"
+        )
+      );
+    });
+  };
+
+  const enhancePresentations = () => {
+    document.querySelectorAll(".presentation-year-data .presentation-list li").forEach((item, index) => {
+      item.dataset.presentationNumber = String(index + 1);
+    });
+
+    document.querySelectorAll(".presentation-year-data").forEach((group) => {
+      const body = document.createElement("div");
+
+      while (group.firstChild) body.appendChild(group.firstChild);
+      group.replaceWith(
+        createYearDisclosure(
+          group.dataset.year || "年不明",
+          body,
+          group.dataset.open === "true",
+          "presentation-year"
+        )
+      );
+    });
+  };
+
+  const enhanceLists = () => {
     underlineAuthor();
+    groupPublicationsByYear();
+    enhancePresentations();
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", enhanceLists);
+  } else {
+    enhanceLists();
   }
 })();
 </script>
