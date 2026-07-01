@@ -94,7 +94,7 @@ ORCID
 科学実験自動化のためのロボット実装に関わる研究をしました。  
 
 ### **主催**
-### [第69回 物性若手夏の学校](https://cmpss.jp/)
+### [第69回 物性若手夏の学校](https://cmpss.jp/ss2024/)
 
 **2024.08 · 準備局（運営）**  
 準備局集中ゼミC世話人として、東京大学の[森初果](https://hmori.issp.u-tokyo.ac.jp/index.html)先生と九州大学の[笠原裕一](https://sites.google.com/view/eqm-phys-kyushu-u/)先生を招待しました。
