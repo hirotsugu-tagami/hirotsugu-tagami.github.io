@@ -19,6 +19,9 @@ filters:
   〒153-8902 東京都目黒区駒場4-6-1  
   東京大学16号館622号室
 
+最近の趣味
+: ローカルLLMの一からの構築
+
 E-mail
 : hirotsugu(at)g.ecc.u-tokyo.ac.jp
 
