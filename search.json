@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "田上 大嗣",
@@ -18,7 +25,7 @@
     "href": "index.html#publications",
     "title": "田上 大嗣",
     "section": "発表",
-    "text": "発表\n\n論文\n\n\nHirotsugu Tagami, Takuya Kawada, Yuki ShiomiElectrical detection of spin-flip transition in metal/Na\\(_{5}\\)Co\\(_{15.5}\\)Te\\(_{6}\\)O\\(_{36}\\)heterostructurehttps://doi.org/10.48550/ARXIV.2605.00491 | https://arxiv.org/abs/2605.004912026\n\n\n\n\n発表リスト\n\n\n\nOral Hirotsugu Tagami, Takuya Kawada, Yuki Shiomi\nElectrical detection of spin-flip transition in metal/Na5Co15.5Te6O36 heterostructure\n学術変革A「キメラ準粒子」B02班 班内研究会, 秋保温泉　緑水亭, 2026年8月24日–25日\nOral Hirotsugu Tagami, Takuya Kawada, Yuki Shiomi\nElectrical detection of spin-flip transition in metal/Ising-type antiferromagnet Na5Co15.5Te6O36 heterostructure\n応用物理学会, 北海道大学札幌キャンパス, 2026年9月8日（発表予定）\nOral 田上 大嗣, 川田 拓弥, 塩見 雄毅\n金属/Na5Co15.5Te6O36 ヘテロ構造におけるスピンフリップ転移の電気的検出\n日本物理学会, 東京大学駒場キャンパス, 2026年9月14日–17日（発表予定）"
+    "text": "発表\n\n論文\n\n\nHirotsugu Tagami, Takuya Kawada, Yuki ShiomiElectrical detection of spin-flip transition in metal/Na\\(_{5}\\)Co\\(_{15.5}\\)Te\\(_{6}\\)O\\(_{36}\\)heterostructurehttps://doi.org/10.48550/ARXIV.2605.00491 | https://arxiv.org/abs/2605.004912026\n\n\n\n\n発表リスト\n\n\n\nOral Hirotsugu Tagami, Takuya Kawada, Yuki Shiomi\nElectrical detection of spin-flip transition in metal/Na5Co15.5Te6O36 heterostructure\n学術変革A「キメラ準粒子」B02班 班内研究会, 秋保温泉　緑水亭, 2026年8月24日–25日\nOral Hirotsugu Tagami, Takuya Kawada, Yuki Shiomi\nElectrical detection of spin-flip transition in metal/Ising-type antiferromagnet Na5Co15.5Te6O36 heterostructure\n応用物理学会, 北海道大学札幌キャンパス, 2026年9月8日\nOral 田上 大嗣, 川田 拓弥, 塩見 雄毅\n金属/Na5Co15.5Te6O36 ヘテロ構造におけるスピンフリップ転移の電気的検出\n日本物理学会, 東京大学駒場キャンパス, 2026年9月14日（発表予定）"
   },
   {
     "objectID": "index.html#education",
@@ -33,12 +40,5 @@
     "title": "田上 大嗣",
     "section": "経歴",
     "text": "経歴\n\nインターンシップ\n\n\nQuemix Inc.\n2026.4 — 2026.05 · リサーチ・インターンシップ\n理論研究の中でも数値計算に従事していました。\n\n\nOMRON SINIC X Corp.\n2022.10 — 2023.01 · リサーチ・インターンシップ\n科学実験自動化のためのロボット実装に関わる研究をしました。\n\n\n主催\n\n\n第69回 物性若手夏の学校\n2024.08.02 - 2024.08.06 · 準備局（運営）\n準備局集中ゼミC世話人として、東京大学の森初果先生と九州大学の笠原裕一先生を招待した物性若手夏の学校が開催されました。\n\n\n指導歴\n\n東京大学教養学部 統合自然科学科 学部3年授業「物質の姿」授業TA"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
