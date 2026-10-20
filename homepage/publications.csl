@@ -33,10 +33,9 @@
       <text variable="title" display="block" font-style="italic" font-weight="bold"/>
       <choose>
         <if variable="container-title volume issue page" match="any">
-          <group display="block">
+          <group display="block" suffix=".">
             <text variable="container-title"/>
             <text variable="volume" prefix=" "/>
-            <text variable="issue" prefix="(" suffix=")"/>
             <text variable="page" prefix=", "/>
             <date variable="issued" prefix=" (" suffix=")">
               <date-part name="year"/>
